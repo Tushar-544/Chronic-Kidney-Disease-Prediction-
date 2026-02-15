@@ -1,0 +1,34 @@
+
+# Data
+data/
+dataset/
+datasets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Logs
+logs/
+*.log
+
+# VS Code
+.vscode/
+
+# Large model files (optional, good practice)
+*.h5
+*.pth
+*.pt
+*.pkl
+models/*.h5
+models/*.pth
+checkpoints/
+
+# Node
+node_modules/
+dist/

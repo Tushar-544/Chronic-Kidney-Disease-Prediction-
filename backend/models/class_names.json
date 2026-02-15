@@ -1,0 +1,9 @@
+{
+  "classes": [
+    "Cyst",
+    "Normal",
+    "Stone",
+    "Tumor",
+    "dataset.zip"
+  ]
+}
