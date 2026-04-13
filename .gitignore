@@ -1,0 +1,26 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data & Models (Redundant on GitHub)
+data_raw/
+data_cleaned/
+keras_tuner/
+outputs/
+scratch/
+frontend_old_backup/
+
+# Large Model weights (Optional, but recommended to keep only final versions)
+# *.h5
+# *.keras
+# *.onnx
