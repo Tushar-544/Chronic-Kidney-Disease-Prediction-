@@ -1,20 +1,20 @@
 <div align="center">
-  <h1>🩺 Chronic Kidney Disease Prediction System</h1>
+  <h1> Chronic Kidney Disease Classification System</h1>
   <p><strong>End-to-End Machine Learning Pipeline for Medical Diagnosis</strong></p>
 </div>
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on the early detection of Chronic Kidney Disease (CKD) using Deep Learning. Below is the complete Machine Learning pipeline implemented to achieve clinical-grade results.
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 ```mermaid
 graph TD
-    A[📦 Data Collection] --> B[🧹 Data Cleaning]
-    B --> C[⚙️ Image Preprocessing]
-    C --> D[🏗️ Model Training]
-    D --> E[📊 Model Evaluation]
-    E --> F[🖥️ Result Displaying]
+    A[ Data Collection] --> B[ Data Cleaning]
+    B --> C[ Image Preprocessing]
+    C --> D[ Model Training]
+    D --> E[ Model Evaluation]
+    E --> F[ Result Displaying]
 ```
 
 ### 1. Data Collection
@@ -46,6 +46,6 @@ graph TD
 - **XAI Visualization**: Overlaying Grad-CAM heatmaps on original scans for clinical verification.
 - **3D Volume Analysis**: Layer-by-layer slice scrolling for deeper medical inspection.
 
-## 🚀 Getting Started
+## Getting Started
 1. **Frontend**: `npm run dev`
 2. **Backend**: `npm run backend:dev`
