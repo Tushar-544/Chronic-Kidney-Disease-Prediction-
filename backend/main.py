@@ -2,7 +2,7 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from predictor import KidneyDiseasePredictor
 
-app = FastAPI(title="Kidney Disease Classification API")
+app = FastAPI(title=" Chronic Kidney Disease Classification API")
 
 app.add_middleware(
     CORSMiddleware,
