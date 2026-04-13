@@ -1,0 +1,9 @@
+# Tell GitHub to ignore Jupyter Notebooks in the language statistics
+*.ipynb linguist-detectable=false
+*.ipynb linguist-documentation=true
+
+# Ensure other code is detected correctly
+*.py linguist-detectable=true
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+*.css linguist-detectable=true
